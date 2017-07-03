@@ -1,0 +1,196 @@
+ <!DOCTYPE html>
+<html lang="en" class=" js no-touch">
+<head>
+  <title>Fund the best transfer method</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,600|Raleway:600,300|Josefin+Slab:400,700,600italic,600,400italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="css/slick-team-slider.css"/>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+	<!--HEADER START-->
+	<div class="main-navigation navbar-fixed-top">
+		<nav class="navbar navbar-default">
+			<div class="container">
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			    <span class="icon-bar"></span>
+			    <span class="icon-bar"></span>
+			    <span class="icon-bar"></span>
+			  </button>
+			   <a href="http://www.saiph.org/HCI@WVU/"><img src="img/logo2.png"/></a>
+			   <img src="img/cross.png"/> 
+			   <a href="http://www.saiph.org/HCI@WVU/"><img src="img/logo.png"/></a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+			  <ul class="nav navbar-nav navbar-right">
+			    <li class="active"><a href="#banner">Home</a></li>
+			    <li><a href="#table">Table</a></li>
+			    <li><a href="https://night18.github.io/TiposDeCambio/">
+			    <img src="img/spanish.png"/></a></li>
+			  </ul>
+			</div>
+		  </div>
+		</nav>
+	</div>
+	<!--HEADER END-->
+
+		<!--CTA1 START-->
+	<div class="cta-1">
+		<div class="container">
+			<div class="row text-center white">
+				<p class="cta-sub-title">We help you to find out the <b>POTENTIAL</b> cost of the remittance.</p>
+			</div>
+		</div>
+	</div>
+	<!--CTA1 END-->
+
+	<!--BANNER START-->
+	<div id="banner" class="section-padding">
+		<div class="container">
+			<div class="row">
+				<div class="jumbotron text-center">
+				  <p class="big">Please input the amount of <b>USD</b> you want to transfer to Mexico. </p><br>
+				  <input type="text" name="amount_send" id="amount_send" style="margin: 0px 15px 0px 0px" placeholder="Amount exclude fee"/>
+				  <button type="button" id="search">Set Options</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--BANNER END-->
+
+
+	<!--SERVICE START-->
+	<div id="table" class="section-padding">
+		<div class="container">
+			<div class="row">
+				<div class="page-title text-center">
+					<h2>The true amount you sent</h2>
+					<p>We help you calculate effective exchange rate (considering transaction fee ) of different <br>companies you offer.You just need to enter the name of the company (to recognize it), <br>the transaction fee they charge and the exchange rate they offer to you.</p>
+					<hr class="pg-titl-bdr-btm"></hr>
+				</div>
+
+				<!--Formulario-->
+
+
+
+				<div class="panel panel-default hidden-xs col-sm-12 col-md-3 col-lg-4 text-center">
+					<div class="panel-heading" role="tab" id="heading1">
+						<h1 class="panel-title">
+							<a href="#collapse1" data-toggle="collapse" data-parent="#accordion">
+								Option Name 
+							</a>
+						</h1>
+					</div>
+
+					<div id="collapse1" class="panel-collapse collapse">
+						<div class="panel-body">
+							<div class="form-group">
+								<label for="nombre">Option Name: </label>
+								<input class="form-control" id="nombre" type="text" name="" placeholder="Organization Name ">
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+				<div class="panel panel-default hidden-xs col-sm-12 col-md-3 col-lg-4 text-center">
+					<div class="panel-heading" role="tab" id="heading2">
+						<h1 class="panel-title">
+							<a href="#collapse2" data-toggle="collapse" data-parent="#accordion">
+								Transaction Fee
+							</a>
+						</h1>
+					</div>
+
+					<div id="collapse2" class="panel-collapse collapse">
+						<div class="panel-body">
+							<div class="form-group">
+								<label for="nombre">Transaction Fee:</label>
+								<input class="form-control" id="nombre" type="text" name="" placeholder="USD ">
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+				<div class="panel panel-default hidden-xs col-sm-12 col-md-3 col-lg-4 text-center">
+					<div class="panel-heading" role="tab" id="heading3">
+						<h1 class="panel-title">
+							<a href="#collapse3" data-toggle="collapse" data-parent="#accordion">
+								Exchange rate
+							</a>
+						</h1>
+					</div>
+
+					<div id="collapse3" class="panel-collapse collapse">
+						<div class="panel-body">
+							<div class="form-group">
+								<label for="nombre">Exchange rate:</label>
+								<input class="form-control" id="nombre" type="text" name="" placeholder="1 USD = ? MXN">
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!--
+				<div class="port-sec">
+								
+					<div id="Container" class="text-center">
+
+						<div class=" mix col-md-4 col-sm-4 col-xs-12 card addcard"> </div>
+					</div>
+				</div>
+				-->
+				
+			</div>
+		</div>
+	</div>
+	<!--SERVICE END-->
+
+	<!--FOOTER START-->
+	<footer class="footer section-padding">
+		<div class="container">
+			<div class="row">
+			<div style="text-align: right; color: #FFFFFF"> *The information only for reference and change without notice ,<br>because the actual exchange rate vary every second, we can not <br>guarantee you can change at the rate in this organizations. </div>
+				<div style="visibility: visible; animation-name: zoomIn;" class="col-sm-12 text-center wow zoomIn">
+					<h3>Follow us on</h3>
+					<div class="footer_social">
+						<ul>
+							<li><a class="f_facebook" href="https://www.facebook.com/Migra_UNAM-412326729147792/"><i class="fa fa-facebook"></i></a></li>
+							<li><a class="f_twitter" href="https://twitter.com/migra_unam"><i class="fa fa-twitter"></i></a></li>
+						</ul>
+					</div>																
+				</div><!--- END COL -->
+			</div><!--- END ROW -->
+		</div><!--- END CONTAINER -->
+	</footer>
+	<!--FOOTER END-->
+	<div class="footer-bottom">
+		<div class="container">
+			<div style="visibility: visible; animation-name: zoomIn;" class="col-md-12 text-center wow zoomIn">
+				<div class="footer_copyright">
+					<p> © Copyright, All Rights Reserved.</p>					
+					<div class="credits">
+                        Designed by <a href="http://www.saiph.org/HCI@WVU/"> <img src="img/logo2.png"/></a>
+                    </div>
+				</div>
+			</div>
+		</div>
+	</div>
+  	<script src="js/jquery.min.js"></script>
+  	<script src="js/jquery.easing.min.js"></script>
+  	<script src="js/bootstrap.min.js"></script>
+  	<script src="js/jquery.mixitup.js" type="text/javascript"></script>
+	<script type="text/javascript" src="js/slick.min.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
+	<!-- <script src="js/money.min.js"></script> -->
+    <script src="js/search.js"></script>
+</body>
+</html>

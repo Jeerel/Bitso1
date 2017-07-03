@@ -1,0 +1,23 @@
+{
+  "name": "exchange",
+  "version": "1.0.0",
+  "description": "Thanks for downloading this theme!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/night18/CompareFeeAndRate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/night18/CompareFeeAndRate/issues"
+  },
+  "homepage": "https://github.com/night18/CompareFeeAndRate#readme",
+  "devDependencies": {
+    "mixitup": "^3.1.8"
+  },
+  "dependencies": {}
+}
